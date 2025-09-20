@@ -3,7 +3,7 @@ import * as dotenv from "dotenv"
 import { LoginPage } from "../page/LoginPage"
 import { CheckoutPage } from "../page/CheckOut"
 
-dotenv.config({path:"./config/.env"})
+dotenv.config({path:"./config/.env"})//test test
 
 test.describe("Add to Cart Test Cases",()=>{
         test.beforeAll(()=>{

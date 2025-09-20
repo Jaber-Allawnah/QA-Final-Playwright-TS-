@@ -3,7 +3,7 @@ import * as dotenv from "dotenv"
 import { LoginPage } from "../page/LoginPage"
 import { CheckoutPage } from "../page/CheckOut"
 
-dotenv.config({path:"./config/.env"})
+dotenv.config({path:"./config/.env"})//I want to merge this
 
 test.describe("Add to Cart Test Cases",()=>{
         test.beforeAll(()=>{
